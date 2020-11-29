@@ -8,7 +8,11 @@ export const Card = props => (
             <h2>
                 {props.movie.title}
             </h2>
-            <p>{props.movie.overview}</p>
+            <p>
+                Release: {props.movie.release_date}
+                <br />
+                Rating: {props.movie.vote_average}
+            </p>
         </div>
     </div>
 );

@@ -20,15 +20,13 @@ class App extends Component {
 
   render() {
     const { movies, searchField } = this.state;
-    console.log(searchField);
     const filteredMovies = movies.filter(movie =>
       movie.title.toLowerCase().includes(searchField.toLowerCase())
     );
-    console.log(filteredMovies);
     return (
       <div className="App">
         <SearchBox
-          searchType='Trending Movies'
+          searchType="Today's Trending Movies"
           handleChange={e => this.setState({ searchField: e.target.value })}
         />
         <CardList movies={filteredMovies} />

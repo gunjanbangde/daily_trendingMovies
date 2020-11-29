@@ -1,6 +1,7 @@
 .search {
     -webkit-appearance: none;
     border: none;
+    width: 310px;
     outline: none;
     padding: 10px 30px;
     text-align: center;
