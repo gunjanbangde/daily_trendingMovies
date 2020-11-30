@@ -6,19 +6,19 @@
     grid-gap: 30px;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
     .card-list {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
     .card-list {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1800px) {
     .card-list {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
