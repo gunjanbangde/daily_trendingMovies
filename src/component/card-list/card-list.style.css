@@ -1,6 +1,6 @@
 .card-list {
-    width: 95vw;
-    margin: 0 5% 5% 30px;
+    width: 80vw;
+    margin: 0 auto 30px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
@@ -8,6 +8,7 @@
 
 @media only screen and (min-width: 570px) {
     .card-list {
+        width: 95vw;
         grid-template-columns: 1fr 1fr;
         margin: 0 auto 1%;
     }
@@ -17,6 +18,7 @@
     .card-list {
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 auto 1%;
+        width: 95vw;
     }
 }
 
@@ -24,5 +26,6 @@
     .card-list {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin: 0 auto 1%;
+        width: 95vw;
     }
 }

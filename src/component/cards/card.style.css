@@ -12,7 +12,7 @@
 }
 
 .card-container:hover {
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
 .texts {
@@ -26,4 +26,22 @@
 img {
     width: 100%;
     border-radius: 25px 25px 0 0;
+}
+
+@media only screen and (min-width: 570px) {
+    .card-container:hover {
+        transform: scale(1.05);
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .card-container:hover {
+        transform: scale(1.05);
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .card-container:hover {
+        transform: scale(1.05);
+    }
 }
